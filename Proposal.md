@@ -217,7 +217,7 @@ Die Architektur ist darauf ausgelegt, als „Discovery Layer“ zu fungieren, de
 
 # 8. Gantt Diagramm
 
-![Gantt-Diagramm](Ghttps://github.com/finnfllr/SWE-Projekt/blob/main/Images/Ganttdiagramm.jpg)
+![Gantt-Diagramm](https://github.com/finnfllr/SWE-Projekt/blob/main/Images/Ganttdiagramm.jpg)
 *Abbildung: Gantt-Diagramm des Projektplans*
 
 ---
@@ -343,5 +343,6 @@ Die Entwicklung erfolgt iterativ in kleinen Abschnitten, um Flexibilität zu gew
 Auf dem Markt existieren diverse Produkte, die die Erstellung von E-Rechnungen ermöglichen. Diese Produkte konzentrieren sich jedoch in der Regel auf spezifische Aspekte, wie beispielsweise die Erstellung und den Versand, vernachlässigen jedoch die Überwachung von Fristen und die Validierung. Unser Produkt bietet eine umfassende Lösung, die all diese Aspekte abdeckt, und zeichnet sich durch eine benutzerfreundliche Bedienung aus, da sämtliche Prozesse vollautomatisiert ablaufen. Die Mitarbeiter werden über fällige Zahlungen informiert und haben die Möglichkeit, E-Rechnungen manuell über eine Web-Anwendung zu erstellen.
 
 ---
+
 
 
