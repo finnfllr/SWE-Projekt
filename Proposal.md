@@ -54,7 +54,7 @@ Als Grundlage nutzt das System vorhandene Unternehmensdaten, beispielsweise aus 
 
 Der funktionale Kern des Systems liegt in der durchgehenden Automatisierung des Rechnungsprozesses. Dazu gehören:
 
-## 2.1 Erstellung der Rechnung**
+## **2.1 Erstellung der Rechnung**
 
 - Übernahme der relevanten Daten aus dem ERP-System
 
@@ -62,7 +62,7 @@ Der funktionale Kern des Systems liegt in der durchgehenden Automatisierung des 
 
 - Aufbereitung der Informationen in maschinenlesbarer Form (XML)
 
-## 2.2 Validierung**
+## **2.2 Validierung**
 
 - Prüfung der formalen Anforderungen des Standards
 
@@ -70,7 +70,7 @@ Der funktionale Kern des Systems liegt in der durchgehenden Automatisierung des 
 
 - Überprüfung der fachlichen Regeln (z. B. Steuersätze, Beträge, Datumsangaben)
 
-## 2.3 Versand und Zustellungsprüfung**
+## **2.3 Versand und Zustellungsprüfung**
 
 - automatischer Versand der Rechnung per E-Mail
 
@@ -345,6 +345,7 @@ Die Entwicklung erfolgt iterativ in kleinen Abschnitten, um Flexibilität zu gew
 Auf dem Markt existieren diverse Produkte, die die Erstellung von E-Rechnungen ermöglichen. Diese Produkte konzentrieren sich jedoch in der Regel auf spezifische Aspekte, wie beispielsweise die Erstellung und den Versand, vernachlässigen jedoch die Überwachung von Fristen und die Validierung. Unser Produkt bietet eine umfassende Lösung, die all diese Aspekte abdeckt, und zeichnet sich durch eine benutzerfreundliche Bedienung aus, da sämtliche Prozesse vollautomatisiert ablaufen. Die Mitarbeiter werden über fällige Zahlungen informiert und haben die Möglichkeit, E-Rechnungen manuell über eine Web-Anwendung zu erstellen.
 
 ---
+
 
 
 
