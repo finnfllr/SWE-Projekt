@@ -65,9 +65,13 @@ Um die zeitliche Abfolge der Mahnung sicherzustellen, ist folgender Ablauf defin
 
 ## 4. Nicht-funktionale Anforderungen (Qualitätssicherung)
 - Performance: Die Validierung einer Rechnung muss in unter 150 ms erfolgen, um auch Massenverarbeitungen nicht zu verzögern.
+- Präzision: Alle Währungsberechnungen müssen mittels java.math.BigDecimal durchgeführt werden, um Rundungsfehler auszuschließen
+- Skalierbarkeit: Die Software muss leicht erweiterbar sein, um steigende Rechnungsvolumina, sowie Einbidnung neuer Mandanten oder Funktionen ohne Performance-Verlust zu unterstützen. 
 - Rechtssicherheit & Compliance: Das System muss 100 % konform zur Norm EN 16931 sein. Änderungen am Validierungsstandard (z. B. XRechnung 3.x) müssen durch Updates der Schemata einpflegbar sein.
 - Zuverlässigkeit: Bei SMTP-Fehlern (z. B. Bounces, Server nicht erreichbar) muss eine automatische Wiederholungslogik (Retry 4xx) greifen.
 - Audit-Trail: Jede Änderung am Status einer Rechnung sowie manuelle Eingriffe müssen unveränderbar protokolliert werden (Logging für GoBD).
+- Gesetzliche Wartbarkeit: Das System muss modular geschaffen sein, dass Gesetztesänderungen durch Updates der Validierungsschemata  ohne Änderung der Kernlogik erweitert werden können. 
+- 
 
 ## 5. Testplan
 ## Randinformationen mit denen wir arbeiten müssen
